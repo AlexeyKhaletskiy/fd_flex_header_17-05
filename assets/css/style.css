@@ -1,1 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.header {
+  min-height: 10vh;
+  padding: 3% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #262626;
+}
 
+.logo{
+  margin-right: 30px;
+  color: white;
+}
+
+.list {
+  margin-right: 30px;
+  list-style: none;
+  
+}
+.list-item {
+  display: inline-block;
+  
+}
+
+.link{
+  display: block;
+  padding: 0.7em 0;
+  color: white;
+}
